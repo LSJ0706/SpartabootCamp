@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #00704a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005936;
+}
+
+#order-summary {
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+}
+
+#submit-order {
+  width: 100%;
+}
+
+.menu__btn {
+  margin-left: 10px;
+}
