@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MBTI테스트</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>MBTI 테스트</h1>
+      <form id="quiz-form">
+        <div class="question">
+          <p>아침에 일어나자마자 가장 먼저 하는 일은?</p>
+          <label
+            ><input type="radio" name="q1" value="E" /> 휴대폰 확인하기</label
+          >
+          <label><input type="radio" name="q1" value="I" /> 커피 마시기</label>
+          <label><input type="radio" name="q1" value="S" /> 운동하기</label>
+          <label><input type="radio" name="q1" value="N" /> 잠 더 자기</label>
+        </div>
+
+        <div class="question">
+          <p>주말에 주로 하는 일은?</p>
+          <label><input type="radio" name="q2" value="E" /> 친구 만나기</label>
+          <label><input type="radio" name="q2" value="I" /> 집에서 쉬기</label>
+          <label><input type="radio" name="q2" value="S" /> 여행 가기</label>
+          <label
+            ><input type="radio" name="q2" value="N" /> 취미 활동 하기</label
+          >
+        </div>
+
+        <div class="question">
+          <p>일을 할 때 가장 중요한 것은?</p>
+          <label><input type="radio" name="q3" value="T" /> 효율성</label>
+          <label><input type="radio" name="q3" value="F" /> 팀워크</label>
+          <label><input type="radio" name="q3" value="J" /> 계획성</label>
+          <label><input type="radio" name="q3" value="P" /> 유연성</label>
+        </div>
+
+        <div class="question">
+          <p>어떤 결정을 내릴 때, 당신의 기준은?</p>
+          <label
+            ><input type="radio" name="q4" value="T" /> 논리적인 분석</label
+          >
+          <label
+            ><input type="radio" name="q4" value="F" /> 감정적인 반응</label
+          >
+          <label><input type="radio" name="q4" value="J" /> 규칙을 따름</label>
+          <label
+            ><input type="radio" name="q4" value="P" /> 상황에 따른 대응</label
+          >
+        </div>
+        <button id="submit-button" type="button" disabled>결과 확인하기</button>
+      </form>
+      <div id="result" class="hide">
+        <h2>당신의 성격 유형은?</h2>
+        <p id="result-text">결과가 여기에 표시됩니다.</p>
+        <button id="reset-button">다시 시작하기</button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
