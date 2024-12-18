@@ -45,9 +45,22 @@ button:hover {
 #menu {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 5px 30px 5px 30px;
   border: 2px solid gainsboro;
   border-radius: 5px;
+}
+#order-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+}
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 #submit-order {
